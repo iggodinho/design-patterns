@@ -21,7 +21,7 @@ class Individual extends Employee {
     }
 }
 
-// Classe Container - pode ter sub-elementos
+// Classe Composite - pode ter sub-elementos
 class Department extends Employee {
     constructor(name) {
         super(name, 0); // Dpt não possui salário próprio, depende dos membros
